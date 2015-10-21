@@ -165,6 +165,7 @@ section.hero {
 	font-family: 'Teko', sans-serif;
 }
 
+
 /* --------------------------------------
 My Projects
 -------------------------------------- */
@@ -320,6 +321,11 @@ aside a {
 	margin: 1%;
 	float: left;
 	text-align: center;
+}
+
+aside a:hover {
+	background-color: #f63c3c;
+	opacity: 1;
 }
 
 aside div.wrapper ul li:first-child a {
