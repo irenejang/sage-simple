@@ -196,7 +196,7 @@ My Projects
 }
 
 .projects h3 {
-	font-size: 30px;
+	font-size: 1.875em;
 	letter-spacing: .1em;
 	font-weight: 400;
 	color: black;
@@ -204,7 +204,7 @@ My Projects
 }
 
 .projects p {
-	font-size: 14px;
+	font-size: .875em;
 	width: 65%;
 	margin: 0 auto;
 }
@@ -229,12 +229,12 @@ figcaption {
 }
 
 figcaption h4 {
-	font-size: 24px;
+	font-size: 1.5em;
 	margin-bottom: 3em;
 }
 
 figcaption p {
-	font-size: 18px;
+	font-size: 1.125em;
 }
 
 time {
@@ -243,7 +243,7 @@ time {
 
 .projects a.teko-caps {
 	color: #f63c3c;
-	font-size: 20px;
+	font-size: 1.25em;
 	letter-spacing: .1em;
 	display: inline-block;
 	padding-bottom: 10px;
@@ -270,7 +270,7 @@ Call to Action
 }
 
 .cta h2 {
-	font-size: 40px;
+	font-size: 2.5em;
 }
 
 .cta p {
@@ -296,7 +296,7 @@ aside .wrapper, footer {
 }
 
 aside h2 {
-	font-size: 40px;
+	font-size: 2.5em;
 	color: black;
 	padding-top: 1.5em;
 }
@@ -306,7 +306,7 @@ aside p {
 }
 
 aside a {
-	font-size: 30px;
+	font-size: 1.875em;
 	display: block;
 	letter-spacing: .2em;
 	background-color: #30282a;
@@ -322,7 +322,7 @@ aside div.wrapper ul li:first-child a {
 }
 
 aside ul i.fa {
-	height: 40px;
+	height: 2.5em;
 	display: block;
 }
 
