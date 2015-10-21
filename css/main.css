@@ -1,0 +1,367 @@
+/* --------------------------------------
+General
+-------------------------------------- */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Titillium Web', sans-serif;
+	line-height: 1.4;
+	color: #555;
+	font-weight: 400;
+}
+
+body a {
+	text-decoration: none;
+}
+
+.teko-caps {
+	font-family: Teko, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+
+.max-width {
+	width: 1200px;
+	max-width: 90%;
+}
+
+a:hover {
+	opacity: .7;
+}
+
+.active-hero h1, .active-hero p, figcaption, .cta h2, aside a {
+	font-weight: 300;
+	color: white;
+}
+
+/* --------------------------------------
+Header
+-------------------------------------- */
+
+.main-header {
+	position: fixed;
+	top: 0;
+	background: white;
+	width: 100%;
+	z-index: 100;
+}
+
+.main-header .wrapper {
+	width: 1200px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.main-header img {
+	height: 70px;
+	width: 70px;
+	float: left;
+}
+
+.main-header nav ul {
+	float: right;
+}
+
+.main-header nav li {
+	display: inline-block;
+	margin: 0 30px;
+	height: 70px;
+	line-height: 70px;
+}
+
+.main-header nav li a {
+	color: #bebebe;
+}
+
+.main-header nav li.nav-active {
+	border-bottom: 4px solid #f63c3c;
+}
+
+.main-header nav li.nav-active a {
+	color: #f63c3c;
+}
+
+.main-header nav li a:hover {
+	color: #f63c3c;
+	opacity: .5;
+}
+
+/* --------------------------------------
+Hero
+-------------------------------------- */
+
+section.hero {
+	width: 100%;
+	background: url('../img/background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center top;	
+	height: 800px;
+}
+
+.hero ul li:not(.active-hero) {
+	display: none;
+}
+
+.active-hero {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.active-hero h1 {
+	font-size: 5.5em;
+	text-align: center;
+	letter-spacing: .15em;
+	margin: 0 auto;
+	padding-top: 200px;
+	line-height: 1.25;
+}
+
+.active-hero p {
+	line-height: 1.4;
+	opacity: .7;
+	width: 550px;
+	max-width: 70%;
+	margin: 0 auto 2em;
+}
+
+.hero nav.carousel-nav ul {
+	text-align: center;
+	margin: 100px auto 0;
+}
+
+.hero nav.carousel-nav li {
+	display: inline-block;
+	width: 2em;
+	height: .2em;
+	background: white;
+	margin: 6.5em .15em;
+	cursor: pointer;
+}
+
+.hero .carousel-nav li:not(.active) {
+	opacity: .2;
+}
+
+.button-white {
+	color: black;
+	width: 11em;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: .75em .5em;
+	letter-spacing: .15em;
+	display: block;
+	margin: 1.5em auto;
+	background: white;
+	font-family: 'Teko', sans-serif;
+}
+
+/* --------------------------------------
+My Projects
+-------------------------------------- */
+
+.projects {
+	text-align: center;
+}
+
+.projects h2 {
+	font-size: 2.5em;
+	letter-spacing: .1em;
+	margin: 1em 0;
+	text-align: center;
+	color: black;
+}
+
+.projects article {
+	width: 48%;
+}
+
+.projects img {
+	display: inline-block;
+	width: 100%;
+}
+
+.projects article.float-left {
+	float: left;
+	margin: 0 .666% 2.5em 1.333%
+}
+
+.projects article.float-right {
+	float: right;
+	margin: 0 1.333% 2.5em .666%
+}
+
+.projects h3 {
+	font-size: 30px;
+	letter-spacing: .1em;
+	font-weight: 400;
+	color: black;
+	margin-top: .75em;
+}
+
+.projects p {
+	font-size: 14px;
+	width: 65%;
+	margin: 0 auto;
+}
+
+figure {
+	position: relative;
+}
+
+figure:hover figcaption {
+	display: block;
+}
+
+figcaption {
+	display: none;
+	background: #f63c3c;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	padding-top: 5em;
+	border: 15px solid #352d2f;
+}
+
+figcaption h4 {
+	font-size: 24px;
+	margin-bottom: 3em;
+}
+
+figcaption p {
+	font-size: 18px;
+}
+
+time {
+	display: block;
+}
+
+.projects a.teko-caps {
+	color: #f63c3c;
+	font-size: 20px;
+	letter-spacing: .1em;
+	display: inline-block;
+	padding-bottom: 10px;
+	border-bottom: 4px solid #f63c3c;
+	margin-bottom: 3em;
+}
+
+/* --------------------------------------
+Call to Action
+-------------------------------------- */
+
+.cta {
+	background-color: #f63c3c;
+	text-align: center;
+	padding: 2.5em 0 2em;
+}
+
+.cta h2, .cta p, .cta a {
+	max-width: 90%;
+}
+
+.cta h2, .cta p {
+	margin: 0 auto;
+}
+
+.cta h2 {
+	font-size: 40px;
+}
+
+.cta p {
+	color: #fbb2b2;
+}
+
+.cta a {
+	color: #685157;
+}
+
+/* --------------------------------------
+Aside
+-------------------------------------- */
+
+aside {
+	width: 100%;
+	background-color: #fafafa;
+	height: 435px;
+}
+
+aside .wrapper, footer {
+	margin: 0 auto;
+}
+
+aside h2 {
+	font-size: 40px;
+	color: black;
+	padding-top: 1.5em;
+}
+
+aside p {
+	margin-bottom: 3em;
+}
+
+aside a {
+	font-size: 30px;
+	display: block;
+	letter-spacing: .2em;
+	background-color: #30282a;
+	width: 23%;
+	padding: 2em 0;
+	margin: 1%;
+	float: left;
+	text-align: center;
+}
+
+aside div.wrapper ul li:first-child a {
+	margin-left: 0;
+}
+
+aside ul i.fa {
+	height: 40px;
+	display: block;
+}
+
+/* --------------------------------------
+Footer
+-------------------------------------- */
+
+footer.main {
+	color: #959595;	
+	font-size: .8125em;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+footer.main a {
+	text-decoration: none;
+}
+
+footer.main p {
+	float: left;
+}
+
+footer.main ul {
+	float: right;
+}
+
+footer.main li {
+	display: inline-block;
+	padding: 0 10px;
+}
+
+/* --------------------------------------
+Clearfix
+-------------------------------------- */
+
+.group:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+}
