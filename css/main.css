@@ -84,6 +84,11 @@ Header
 	color: #f63c3c;
 }
 
+.main-header nav li:hover {
+	border-bottom: 4px solid #f63c3c;
+	opacity: .7;
+}
+
 .main-header nav li a:hover {
 	color: #f63c3c;
 	opacity: .5;
@@ -117,7 +122,7 @@ section.hero {
 	text-align: center;
 	letter-spacing: .15em;
 	margin: 0 auto;
-	padding-top: 200px;
+	padding-top: 250px;
 	line-height: 1.25;
 }
 
@@ -131,7 +136,7 @@ section.hero {
 
 .hero nav.carousel-nav ul {
 	text-align: center;
-	margin: 100px auto 0;
+	margin: 50px auto 0;
 }
 
 .hero nav.carousel-nav li {
@@ -311,7 +316,7 @@ aside a {
 	letter-spacing: .2em;
 	background-color: #30282a;
 	width: 23%;
-	padding: 2em 0;
+	padding: 1.75em 0;
 	margin: 1%;
 	float: left;
 	text-align: center;
@@ -322,7 +327,8 @@ aside div.wrapper ul li:first-child a {
 }
 
 aside ul i.fa {
-	height: 2.5em;
+	font-size: 1.5em;
+	height: 1.25em;
 	display: block;
 }
 
